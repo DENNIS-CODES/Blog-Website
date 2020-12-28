@@ -14,6 +14,18 @@ namespace Blog_Website_MVC.Controllers
             return View();
         }
 
-        public ActionResult Uploading()
+        public ActionResult Uploadblog()
+        {
+            return View();
+        }
+        [HttpPost]
+        public ActionResult Uploadblog(Blog bg)
+        {
+            newdbEntities nd = new newdbEntities();
+            nd.Blogs.Add(bg);
+            nd.SaveChanges();
+            ViewBag.message = "Blog Details Are Saved Successfully..!";
+            return View();
+        }
     }
 }
