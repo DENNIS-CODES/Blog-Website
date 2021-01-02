@@ -11,9 +11,12 @@ Blog Website is simple, beautiful, light-weight blog written in .NET Core. This 
 ##SEND GRID
 for new subscribers to get notification through Email you can integrate the Application with send Grid. It is one of the cloud email providers recommended for ASP.NET Core. It is free for under 100 daily emails and has paid options if someone needs more.
 
-#HOW TO USE
+##HOW TO USE
+
 To use SendGrid, blogger would need to sign up for service and get API key. Once you have API key, all that required is to update __appsettings.json:__
-,,,
+
+
+```
 {
   "Blogifier": {
     "SendGridApiKey": "YOUR-SENDGRID-API-KEY",
@@ -21,4 +24,4 @@ To use SendGrid, blogger would need to sign up for service and get API key. Once
     "SendGridEmailFromName": "Blog admin"
   }
 }
-,,,
+```
