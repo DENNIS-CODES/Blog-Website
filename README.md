@@ -1,5 +1,5 @@
 # Blog-Website 
-it is written as a Practice in .Net And HCI school project 
+is written as a Practice in .Net And HCI school project 
 Blog Website is simple, beautiful, light-weight blog written in .NET Core. This cross-platform, highly extendable and customizable web application brings all the best blogging features in small, portable package
 
 
@@ -25,3 +25,14 @@ To use SendGrid, blogger would need to sign up for service and get API key. Once
   }
 }
 ```
+
+##System Requirements
+. Windows, Mac or Linux
+. ASP.NET Core 3.1
+. Visual Studio 2019, VS Code or other code editor (Atom, Sublime etc)
+. SQLite by default, MS SQL Server, PostgreSQL and MySQL out of the box, EF compatible databases should work
+
+##Getting Started
+. Clone or download source code
+. Run application in Visual Studio or using your code editor
+. Use admin/admin to log in
