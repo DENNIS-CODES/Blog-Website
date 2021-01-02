@@ -19,7 +19,7 @@ To use SendGrid, blogger would need to sign up for service and get API key. Once
 
 ```
 {
-  "Blogifier": {
+  "Blog-Website": {
     "SendGridApiKey": "YOUR-SENDGRID-API-KEY",
     "SendGridEmailFrom": "admin@blog.com",
     "SendGridEmailFromName": "Blog admin"
